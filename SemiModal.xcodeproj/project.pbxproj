@@ -14,7 +14,13 @@
 		F6A68F9F15FBE4100082BFB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A68F9E15FBE4100082BFB3 /* main.m */; };
 		F6A68FA315FBE4100082BFB3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A68FA215FBE4100082BFB3 /* AppDelegate.m */; };
 		F6A68FA615FBE4100082BFB3 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6A68FA415FBE4100082BFB3 /* MainStoryboard.storyboard */; };
-		F6A68FA915FBE4100082BFB3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A68FA815FBE4100082BFB3 /* ViewController.m */; };
+		F6A68FD115FCF5350082BFB3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6A68FD015FCF5350082BFB3 /* QuartzCore.framework */; };
+		F6A68FD715FCF8C50082BFB3 /* UIViewController+SASemiModal.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A68FD615FCF8C50082BFB3 /* UIViewController+SASemiModal.m */; };
+		F6A68FDA15FCFA0E0082BFB3 /* SAModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A68FD915FCFA0E0082BFB3 /* SAModalViewController.m */; };
+		F6A68FDD15FCFAEE0082BFB3 /* SAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A68FDC15FCFAED0082BFB3 /* SAViewController.m */; };
+		F6A68FDF15FCFEC90082BFB3 /* SAModal.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6A68FDE15FCFEC90082BFB3 /* SAModal.xib */; };
+		F6E6FD9915FD055A00DBC589 /* iphone4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F6E6FD9815FD055A00DBC589 /* iphone4.jpeg */; };
+		F6E6FD9B15FD062800DBC589 /* iphone5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F6E6FD9A15FD062800DBC589 /* iphone5.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,8 +35,16 @@
 		F6A68FA115FBE4100082BFB3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F6A68FA215FBE4100082BFB3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F6A68FA515FBE4100082BFB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		F6A68FA715FBE4100082BFB3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F6A68FA815FBE4100082BFB3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F6A68FD015FCF5350082BFB3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F6A68FD515FCF8C50082BFB3 /* UIViewController+SASemiModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SASemiModal.h"; sourceTree = "<group>"; };
+		F6A68FD615FCF8C50082BFB3 /* UIViewController+SASemiModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SASemiModal.m"; sourceTree = "<group>"; };
+		F6A68FD815FCFA0E0082BFB3 /* SAModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAModalViewController.h; sourceTree = "<group>"; };
+		F6A68FD915FCFA0E0082BFB3 /* SAModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAModalViewController.m; sourceTree = "<group>"; };
+		F6A68FDB15FCFAED0082BFB3 /* SAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAViewController.h; sourceTree = "<group>"; };
+		F6A68FDC15FCFAED0082BFB3 /* SAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAViewController.m; sourceTree = "<group>"; };
+		F6A68FDE15FCFEC90082BFB3 /* SAModal.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SAModal.xib; sourceTree = "<group>"; };
+		F6E6FD9815FD055A00DBC589 /* iphone4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iphone4.jpeg; sourceTree = "<group>"; };
+		F6E6FD9A15FD062800DBC589 /* iphone5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iphone5.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6A68FD115FCF5350082BFB3 /* QuartzCore.framework in Frameworks */,
 				F6A68F9315FBE4100082BFB3 /* UIKit.framework in Frameworks */,
 				F6A68F9515FBE4100082BFB3 /* Foundation.framework in Frameworks */,
 				F6A68F9715FBE4100082BFB3 /* CoreGraphics.framework in Frameworks */,
@@ -67,6 +82,7 @@
 		F6A68F9115FBE4100082BFB3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F6A68FD015FCF5350082BFB3 /* QuartzCore.framework */,
 				F6A68F9215FBE4100082BFB3 /* UIKit.framework */,
 				F6A68F9415FBE4100082BFB3 /* Foundation.framework */,
 				F6A68F9615FBE4100082BFB3 /* CoreGraphics.framework */,
@@ -77,11 +93,14 @@
 		F6A68F9815FBE4100082BFB3 /* SemiModal */ = {
 			isa = PBXGroup;
 			children = (
-				F6A68FA115FBE4100082BFB3 /* AppDelegate.h */,
-				F6A68FA215FBE4100082BFB3 /* AppDelegate.m */,
+				F6A68FD515FCF8C50082BFB3 /* UIViewController+SASemiModal.h */,
+				F6A68FD615FCF8C50082BFB3 /* UIViewController+SASemiModal.m */,
+				F6A68FD815FCFA0E0082BFB3 /* SAModalViewController.h */,
+				F6A68FD915FCFA0E0082BFB3 /* SAModalViewController.m */,
+				F6A68FDB15FCFAED0082BFB3 /* SAViewController.h */,
+				F6A68FDC15FCFAED0082BFB3 /* SAViewController.m */,
 				F6A68FA415FBE4100082BFB3 /* MainStoryboard.storyboard */,
-				F6A68FA715FBE4100082BFB3 /* ViewController.h */,
-				F6A68FA815FBE4100082BFB3 /* ViewController.m */,
+				F6A68FDE15FCFEC90082BFB3 /* SAModal.xib */,
 				F6A68F9915FBE4100082BFB3 /* Supporting Files */,
 			);
 			path = SemiModal;
@@ -90,6 +109,10 @@
 		F6A68F9915FBE4100082BFB3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F6E6FD9A15FD062800DBC589 /* iphone5.jpeg */,
+				F6E6FD9815FD055A00DBC589 /* iphone4.jpeg */,
+				F6A68FA115FBE4100082BFB3 /* AppDelegate.h */,
+				F6A68FA215FBE4100082BFB3 /* AppDelegate.m */,
 				F6A68F9A15FBE4100082BFB3 /* SemiModal-Info.plist */,
 				F6A68F9B15FBE4100082BFB3 /* InfoPlist.strings */,
 				F6A68F9E15FBE4100082BFB3 /* main.m */,
@@ -151,6 +174,9 @@
 			files = (
 				F6A68F9D15FBE4100082BFB3 /* InfoPlist.strings in Resources */,
 				F6A68FA615FBE4100082BFB3 /* MainStoryboard.storyboard in Resources */,
+				F6A68FDF15FCFEC90082BFB3 /* SAModal.xib in Resources */,
+				F6E6FD9915FD055A00DBC589 /* iphone4.jpeg in Resources */,
+				F6E6FD9B15FD062800DBC589 /* iphone5.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,7 +189,9 @@
 			files = (
 				F6A68F9F15FBE4100082BFB3 /* main.m in Sources */,
 				F6A68FA315FBE4100082BFB3 /* AppDelegate.m in Sources */,
-				F6A68FA915FBE4100082BFB3 /* ViewController.m in Sources */,
+				F6A68FD715FCF8C50082BFB3 /* UIViewController+SASemiModal.m in Sources */,
+				F6A68FDA15FCFA0E0082BFB3 /* SAModalViewController.m in Sources */,
+				F6A68FDD15FCFAEE0082BFB3 /* SAViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +307,7 @@
 				F6A68FAE15FBE4100082BFB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
