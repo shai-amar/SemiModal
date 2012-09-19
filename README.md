@@ -42,7 +42,5 @@ SAViewController.m
 MainStoryboard.storyboard
 SAModal.xib
 
-Screenshots
-
 
 
