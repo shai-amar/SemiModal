@@ -42,5 +42,15 @@ SAViewController.m
 MainStoryboard.storyboard
 SAModal.xib
 
+Screenshots
+===========
 
+Before the modal is activated
+
+![Before the modal is activated](https://github.com/shai-amar/SemiModal/blob/master/Screenshot1.png?raw=true)
+
+
+After the modal is activated
+
+![After the modal is activated](https://github.com/shai-amar/SemiModal/blob/master/Screenshot2.png?raw=true)
 
